@@ -1,26 +1,71 @@
-html, body {
-	font-family: Consolas, monaco, monospace;
-	background-color: #272822;
-	color: #F8F8F2;
+body{
+	background-image:url("http://res.cloudinary.com/dp8xddisq/image/upload/v1491567196/pink_dust_pmajkm.png");
+	color:white;
+	font-family: 'Hind', sans-serif;
 }
 
-.container {
-	margin: 50px;
+#title{
+	background-color:#0f0f0f;
 }
 
-a {
-	text-decoration: none;
-	color: #A6E22E;
+#navbar{
+	width:100%;
+	background-color:#E73E1F;
+	color:white;
 }
 
-a:hover {
-	color: #F92672;
+.active{
+	background-color:#E73E1A;
 }
 
-h1 {
-	color: #F92672;
+.container{
+	width:1200px;
+	margin:auto;
+	background-color:#0f0f0f;
+	padding:25px;
 }
 
-h2 {
-	color: #66D9EF;
+h1{
+	display:inline-block;
+	font-family: 'Press Start 2P', cursive;
+	font-size:2em;
 }
+
+a{
+	color:#e74c3c;
+}
+
+.flex{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+figure, h1{
+	text-align:center;
+}
+h1 span{
+	color:#bdc3c7;
+}
+figure img{
+	width:200px;
+	height:260px;
+}
+figure p{
+	font-size:1.5em;
+}
+figcaption{
+	font-size:2em;
+}
+
+footer{
+	height:50px;
+	width:100%;
+	background-color:#E73E1F;
+}
+
+.navbar.navbar-default{
+	margin-bottom:0;
+}
+
+

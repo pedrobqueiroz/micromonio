@@ -1,5 +1,6 @@
 <?php
 	
 	$w_routes = array(
-		['GET', '/', 'Default#home', 'default_home'],
+		['GET', '/', 'Videogame#home', 'videogame_home'],
+		['GET', '/consoles/[:conId]/[:conName]/', 'Videogame#console', 'videogame_console'],
 	);
